@@ -1,0 +1,6 @@
+while true do -- Loops the script
+wait()
+if game.Players:FindFirstChild("PlayerNameHere") then -- When find the Player
+game.Players.PlayerNameHere:Kick("Ban Reason") -- Kick Him
+end
+end
